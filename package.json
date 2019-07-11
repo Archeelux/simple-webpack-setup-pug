@@ -1,0 +1,25 @@
+{
+    "name": "simple-webpack-setup-pug",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode=production",
+        "build:dev": "webpack --mode=development",
+        "start:dev": "webpack-dev-server --mode=development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.9.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "pug": "^2.0.4",
+        "pug-loader": "^2.4.0",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
